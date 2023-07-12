@@ -1,0 +1,2 @@
+<i class="fa fa-windows" aria-hidden="true"></i>
+docker run --name contenedorphp -itd -v "/$PWD":/var/www/html -p 80:80 php
