@@ -1,13 +1,13 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:571886489349:task-definition/cp17019-app:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:571886489349:task-definition/tarea:1",
     "containerDefinitions": [
         {
-            "name": "cp17019-app",
-            "image": "571886489349.dkr.ecr.us-east-2.amazonaws.com/cp17019-app",
+            "name": "tarea",
+            "image": "571886489349.dkr.ecr.us-east-2.amazonaws.com/tarea",
             "cpu": 0,
             "portMappings": [
                 {
-                    "name": "cp17019-app-80-tcp",
+                    "name": "tarea-80-tcp",
                     "containerPort": 80,
                     "hostPort": 80,
                     "protocol": "tcp",
@@ -22,7 +22,7 @@
             "ulimits": []
         }
     ],
-    "family": "cp17019-app",
+    "family": "tarea",
     "taskRoleArn": "arn:aws:iam::571886489349:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::571886489349:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
@@ -60,7 +60,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-07-13T03:46:43.773Z",
+    "registeredAt": "2023-07-13T12:28:46.960Z",
     "registeredBy": "arn:aws:iam::571886489349:root",
     "tags": []
 }
