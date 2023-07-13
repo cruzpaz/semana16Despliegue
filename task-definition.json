@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:571886489349:task-definition/tarea:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:571886489349:task-definition/tarea:9",
     "containerDefinitions": [
         {
             "name": "tarea",
@@ -26,7 +26,7 @@
     "taskRoleArn": "arn:aws:iam::571886489349:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::571886489349:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 9,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -60,7 +60,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-07-13T12:28:46.960Z",
+    "registeredAt": "2023-07-13T14:54:10.578Z",
     "registeredBy": "arn:aws:iam::571886489349:root",
     "tags": []
 }
