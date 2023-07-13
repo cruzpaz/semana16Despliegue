@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:571886489349:task-definition/marvin-app:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:571886489349:task-definition/marvin-app:3",
     "containerDefinitions": [
         {
             "name": "marvin-app",
@@ -30,14 +30,18 @@
         }
     ],
     "family": "marvin-app",
+    "taskRoleArn": "arn:aws:iam::571886489349:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::571886489349:role/ecsTaskExecutionRole",
     "networkMode": "bridge",
-    "revision": 1,
+    "revision": 3,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
         {
             "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.task-iam-role"
         },
         {
             "name": "ecs.capability.execution-role-ecr-pull"
@@ -59,7 +63,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-07-12T22:08:43.202Z",
+    "registeredAt": "2023-07-13T00:10:06.356Z",
     "registeredBy": "arn:aws:iam::571886489349:root",
     "tags": []
 }
